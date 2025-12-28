@@ -2,7 +2,6 @@ body {
   background-color: white;
   /*margin-left: 100px;
   margin-right: 100px;*/
-  width: 60%;
 }
 h1 {
   /*font-size: 2vw;*/
@@ -37,10 +36,16 @@ li{
 }*/
 
 /* Use a media query to add a breakpoint at 800px: */
+@media screen and (min-width: 801px) {
+  .main{
+    width: 60%; /* The width is 60%, when the viewport is 801px or bigger */
+  }
+}
 @media screen and (max-width: 800px) {
   .main{
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 
 }
+
 
