@@ -30,23 +30,24 @@ li{
 }
 */
 
-.main {
+main {
   float: none;
   width: 60%; /* The width is 60%, by default */
 }
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (min-width: 801px) {
-  .main{
+  main{
     width: 60%; /* The width is 60%, when the viewport is 801px or bigger */
   }
 }
 @media screen and (max-width: 800px) {
-  .main{
+  main{
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 
 }
+
 
 
 
