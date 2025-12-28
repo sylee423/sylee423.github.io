@@ -36,17 +36,18 @@ li{
 }*/
 
 /* Use a media query to add a breakpoint at 800px: */
-@media screen and (min-width: 801px) {
+@media all and (min-width: 801px) {
   body{
     width: 60%; /* The width is 60%, when the viewport is 801px or bigger */
   }
 }
-@media screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
   body{
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 
 }
+
 
 
 
