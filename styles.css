@@ -24,10 +24,11 @@ li{
 }
 
 
-.left, .right {
+/*.left, .right {
   float: left;
   width: 20%; /* The width is 20%, by default */
 }
+*/
 
 .main {
   float: left;
@@ -39,4 +40,5 @@ li{
   .left, .main, .right {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
+
 }
